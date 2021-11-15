@@ -1,0 +1,6 @@
+framework module Pods_Deal_Pai_Gow {
+  umbrella header "Pods-Deal Pai Gow-umbrella.h"
+
+  export *
+  module * { export * }
+}

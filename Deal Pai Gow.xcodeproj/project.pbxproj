@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37FFB31F274191BC00759D9C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FFB31E274191BC00759D9C /* Constant.swift */; };
+		4103DE7A2701292A00BB6C4B /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4103DE792701268600BB6C4B /* audio.mp3 */; };
+		4112633526FB62DB0002F933 /* DealGameSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4112633426FB62DB0002F933 /* DealGameSeven.swift */; };
+		4113845926EF8E1000842F4B /* DealGameFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4113845826EF8E1000842F4B /* DealGameFour.swift */; };
+		411CF9C52720653700DACB01 /* DealGameThirteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411CF9C42720653700DACB01 /* DealGameThirteen.swift */; };
+		411FE50826CFF89300FF37C3 /* DealGameTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411FE50726CFF89300FF37C3 /* DealGameTwo.swift */; };
+		413A1F002731D0C4002D5880 /* DealGameThirtySix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413A1EFF2731D0C4002D5880 /* DealGameThirtySix.swift */; };
+		413A1F022731D40F002D5880 /* DealGameThirtySeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413A1F012731D40F002D5880 /* DealGameThirtySeven.swift */; };
+		413A1F042731D5BC002D5880 /* DealGameThirtyEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413A1F032731D5BC002D5880 /* DealGameThirtyEight.swift */; };
+		413A1F062731D7ED002D5880 /* DealGameThirtyNine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413A1F052731D7ED002D5880 /* DealGameThirtyNine.swift */; };
+		413A1F082731DD3D002D5880 /* LastPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413A1F072731DD3D002D5880 /* LastPage.swift */; };
+		413EB82D272083F9005842AD /* DealGameFifthteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413EB82C272083F9005842AD /* DealGameFifthteen.swift */; };
+		413F11FE266159F50036A90D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 413F11FD266159F50036A90D /* GoogleService-Info.plist */; };
+		4142DF27270DA0A5004BDF81 /* DealGameNine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4142DF26270DA0A5004BDF81 /* DealGameNine.swift */; };
+		414BD56C2730D0A200B63EA2 /* DealGameTwentyFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414BD56B2730D0A200B63EA2 /* DealGameTwentyFour.swift */; };
+		414BD56E2730DA1900B63EA2 /* DealGameTwentyFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414BD56D2730DA1900B63EA2 /* DealGameTwentyFive.swift */; };
+		416BD45426F10420005A380D /* DealGameFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416BD45326F10420005A380D /* DealGameFive.swift */; };
+		4184149A26600C4100AA2847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184149926600C4100AA2847 /* AppDelegate.swift */; };
+		4184149C26600C4100AA2847 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184149B26600C4100AA2847 /* SceneDelegate.swift */; };
+		4184149E26600C4100AA2847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184149D26600C4100AA2847 /* ViewController.swift */; };
+		418414A126600C4100AA2847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4184149F26600C4100AA2847 /* Main.storyboard */; };
+		418414A326600C4500AA2847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418414A226600C4500AA2847 /* Assets.xcassets */; };
+		418414A626600C4500AA2847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418414A426600C4500AA2847 /* LaunchScreen.storyboard */; };
+		418414B126600C4500AA2847 /* Deal_Pai_GowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418414B026600C4500AA2847 /* Deal_Pai_GowTests.swift */; };
+		418414BC26600C4500AA2847 /* Deal_Pai_GowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418414BB26600C4500AA2847 /* Deal_Pai_GowUITests.swift */; };
+		418414CD26600FBC00AA2847 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418414CC26600FBC00AA2847 /* Rules.swift */; };
+		418414D226600FEB00AA2847 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418414D126600FEB00AA2847 /* Practice.swift */; };
+		418414D72660104A00AA2847 /* DealGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418414D62660104A00AA2847 /* DealGame.swift */; };
+		4186B37E2728FD4F0000E5AC /* DealGameTwentyone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186B37D2728FD4F0000E5AC /* DealGameTwentyone.swift */; };
+		4186B3802728FEE30000E5AC /* DealGameTwentyTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186B37F2728FEE30000E5AC /* DealGameTwentyTwo.swift */; };
+		419359EB2727472500DB2632 /* DealGameEighteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419359EA2727472400DB2632 /* DealGameEighteen.swift */; };
+		4199FF0F26D831A000C508E7 /* DealGameThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4199FF0E26D831A000C508E7 /* DealGameThree.swift */; };
+		419A129B271CBE1A00A79CCB /* DealGameEleven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A129A271CBE1A00A79CCB /* DealGameEleven.swift */; };
+		41A58B782727564600C9F914 /* DealGameNineteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A58B772727564600C9F914 /* DealGameNineteen.swift */; };
+		41AAE70527207B8800698F76 /* DealGameFourteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAE70427207B8800698F76 /* DealGameFourteen.swift */; };
+		41B0AEAE271380ED009E83F0 /* DealGameTen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B0AEAD271380ED009E83F0 /* DealGameTen.swift */; };
+		41B30F1F26ADC6C400610E92 /* Fortune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B30F1E26ADC6C400610E92 /* Fortune.swift */; };
+		41B30F2726ADC97900610E92 /* Envy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B30F2626ADC97900610E92 /* Envy.swift */; };
+		41B95A5E26FE670E00EE8804 /* DealGameEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B95A5D26FE670E00EE8804 /* DealGameEight.swift */; };
+		41CAACEE27287F2C00FA0A2F /* DealGameTwenty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CAACED27287F2C00FA0A2F /* DealGameTwenty.swift */; };
+		41DA72AB273189C100D9C56A /* DealGameTwentySix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA72AA273189C100D9C56A /* DealGameTwentySix.swift */; };
+		41DA72AD27318C8500D9C56A /* DealGameTwentySeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA72AC27318C8500D9C56A /* DealGameTwentySeven.swift */; };
+		41DA72AF273195EC00D9C56A /* DealGameTwentyEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA72AE273195EC00D9C56A /* DealGameTwentyEight.swift */; };
+		41DA72B12731989600D9C56A /* DealGameTwentyNine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA72B02731989600D9C56A /* DealGameTwentyNine.swift */; };
+		41DA72B327319A7A00D9C56A /* DealGameThirty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA72B227319A7A00D9C56A /* DealGameThirty.swift */; };
+		41DA72B527319E5B00D9C56A /* DealGameThirtyOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA72B427319E5B00D9C56A /* DealGameThirtyOne.swift */; };
+		41DA72B72731A22100D9C56A /* DealGameThirtyTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA72B62731A22100D9C56A /* DealGameThirtyTwo.swift */; };
+		41DA72B92731A3C600D9C56A /* DealGameThirtyThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA72B82731A3C600D9C56A /* DealGameThirtyThree.swift */; };
+		41DA72BB2731A6BD00D9C56A /* DealGameThirtyFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA72BA2731A6BD00D9C56A /* DealGameThirtyFour.swift */; };
+		41DA72BD2731AF2300D9C56A /* DealGameThirtyFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA72BC2731AF2300D9C56A /* DealGameThirtyFive.swift */; };
+		41DCB9F326F52045000E59D4 /* DealGameSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DCB9F226F52045000E59D4 /* DealGameSix.swift */; };
+		41DD0BB4272366FF00F76A13 /* DealGameSeventeen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD0BB3272366FF00F76A13 /* DealGameSeventeen.swift */; };
+		41E15474272350640007EECA /* DealGameSixteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E15473272350640007EECA /* DealGameSixteen.swift */; };
+		41E8095C271ED07800B61B69 /* DealGameTwelve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E8095B271ED07800B61B69 /* DealGameTwelve.swift */; };
+		41EF3AF6272CB9FE00D1D47A /* DealGameTwentyThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF3AF5272CB9FE00D1D47A /* DealGameTwentyThree.swift */; };
+		621A1771451B715F40ACC8EC /* Pods_Deal_Pai_Gow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C76D8952DF623CC74A87B0D /* Pods_Deal_Pai_Gow.framework */; };
+		9266DE5302B19AF96DD7FB0D /* Pods_Deal_Pai_GowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC2AE0A8C831C8FD81D8385 /* Pods_Deal_Pai_GowTests.framework */; };
+		9734C8F2AFCF743925DA82FC /* Pods_Deal_Pai_Gow_Deal_Pai_GowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CD67031B446BDD909CD362 /* Pods_Deal_Pai_Gow_Deal_Pai_GowUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		418414AD26600C4500AA2847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4184148E26600C4100AA2847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4184149526600C4100AA2847;
+			remoteInfo = "Deal Pai Gow";
+		};
+		418414B826600C4500AA2847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4184148E26600C4100AA2847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4184149526600C4100AA2847;
+			remoteInfo = "Deal Pai Gow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00663A49A1942E1F32D124A9 /* Pods-Deal Pai Gow-Deal Pai GowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deal Pai Gow-Deal Pai GowUITests.debug.xcconfig"; path = "Target Support Files/Pods-Deal Pai Gow-Deal Pai GowUITests/Pods-Deal Pai Gow-Deal Pai GowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C76D8952DF623CC74A87B0D /* Pods_Deal_Pai_Gow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deal_Pai_Gow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FFB31E274191BC00759D9C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4103DE792701268600BB6C4B /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		4112633426FB62DB0002F933 /* DealGameSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameSeven.swift; sourceTree = "<group>"; };
+		4113845826EF8E1000842F4B /* DealGameFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameFour.swift; sourceTree = "<group>"; };
+		411CF9C42720653700DACB01 /* DealGameThirteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameThirteen.swift; sourceTree = "<group>"; };
+		411FE50726CFF89300FF37C3 /* DealGameTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameTwo.swift; sourceTree = "<group>"; };
+		413A1EFF2731D0C4002D5880 /* DealGameThirtySix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameThirtySix.swift; sourceTree = "<group>"; };
+		413A1F012731D40F002D5880 /* DealGameThirtySeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameThirtySeven.swift; sourceTree = "<group>"; };
+		413A1F032731D5BC002D5880 /* DealGameThirtyEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameThirtyEight.swift; sourceTree = "<group>"; };
+		413A1F052731D7ED002D5880 /* DealGameThirtyNine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameThirtyNine.swift; sourceTree = "<group>"; };
+		413A1F072731DD3D002D5880 /* LastPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastPage.swift; sourceTree = "<group>"; };
+		413EB82C272083F9005842AD /* DealGameFifthteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameFifthteen.swift; sourceTree = "<group>"; };
+		413F11FD266159F50036A90D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4142DF26270DA0A5004BDF81 /* DealGameNine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameNine.swift; sourceTree = "<group>"; };
+		414BD56B2730D0A200B63EA2 /* DealGameTwentyFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameTwentyFour.swift; sourceTree = "<group>"; };
+		414BD56D2730DA1900B63EA2 /* DealGameTwentyFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameTwentyFive.swift; sourceTree = "<group>"; };
+		416BD45326F10420005A380D /* DealGameFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameFive.swift; sourceTree = "<group>"; };
+		4184149626600C4100AA2847 /* Deal Pai Gow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deal Pai Gow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4184149926600C4100AA2847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4184149B26600C4100AA2847 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4184149D26600C4100AA2847 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		418414A026600C4100AA2847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		418414A226600C4500AA2847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		418414A526600C4500AA2847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		418414A726600C4500AA2847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418414AC26600C4500AA2847 /* Deal Pai GowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deal Pai GowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		418414B026600C4500AA2847 /* Deal_Pai_GowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal_Pai_GowTests.swift; sourceTree = "<group>"; };
+		418414B226600C4500AA2847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418414B726600C4500AA2847 /* Deal Pai GowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deal Pai GowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		418414BB26600C4500AA2847 /* Deal_Pai_GowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal_Pai_GowUITests.swift; sourceTree = "<group>"; };
+		418414BD26600C4500AA2847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418414CC26600FBC00AA2847 /* Rules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		418414D126600FEB00AA2847 /* Practice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		418414D62660104A00AA2847 /* DealGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGame.swift; sourceTree = "<group>"; };
+		4186B37D2728FD4F0000E5AC /* DealGameTwentyone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameTwentyone.swift; sourceTree = "<group>"; };
+		4186B37F2728FEE30000E5AC /* DealGameTwentyTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameTwentyTwo.swift; sourceTree = "<group>"; };
+		419359EA2727472400DB2632 /* DealGameEighteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameEighteen.swift; sourceTree = "<group>"; };
+		4199FF0E26D831A000C508E7 /* DealGameThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameThree.swift; sourceTree = "<group>"; };
+		419A129A271CBE1A00A79CCB /* DealGameEleven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameEleven.swift; sourceTree = "<group>"; };
+		41A58B772727564600C9F914 /* DealGameNineteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameNineteen.swift; sourceTree = "<group>"; };
+		41AAE70427207B8800698F76 /* DealGameFourteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameFourteen.swift; sourceTree = "<group>"; };
+		41B0AEAD271380ED009E83F0 /* DealGameTen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameTen.swift; sourceTree = "<group>"; };
+		41B30F1E26ADC6C400610E92 /* Fortune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortune.swift; sourceTree = "<group>"; };
+		41B30F2626ADC97900610E92 /* Envy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Envy.swift; sourceTree = "<group>"; };
+		41B95A5D26FE670E00EE8804 /* DealGameEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameEight.swift; sourceTree = "<group>"; };
+		41CAACED27287F2C00FA0A2F /* DealGameTwenty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameTwenty.swift; sourceTree = "<group>"; };
+		41DA72AA273189C100D9C56A /* DealGameTwentySix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameTwentySix.swift; sourceTree = "<group>"; };
+		41DA72AC27318C8500D9C56A /* DealGameTwentySeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameTwentySeven.swift; sourceTree = "<group>"; };
+		41DA72AE273195EC00D9C56A /* DealGameTwentyEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameTwentyEight.swift; sourceTree = "<group>"; };
+		41DA72B02731989600D9C56A /* DealGameTwentyNine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameTwentyNine.swift; sourceTree = "<group>"; };
+		41DA72B227319A7A00D9C56A /* DealGameThirty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameThirty.swift; sourceTree = "<group>"; };
+		41DA72B427319E5B00D9C56A /* DealGameThirtyOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameThirtyOne.swift; sourceTree = "<group>"; };
+		41DA72B62731A22100D9C56A /* DealGameThirtyTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameThirtyTwo.swift; sourceTree = "<group>"; };
+		41DA72B82731A3C600D9C56A /* DealGameThirtyThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameThirtyThree.swift; sourceTree = "<group>"; };
+		41DA72BA2731A6BD00D9C56A /* DealGameThirtyFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameThirtyFour.swift; sourceTree = "<group>"; };
+		41DA72BC2731AF2300D9C56A /* DealGameThirtyFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameThirtyFive.swift; sourceTree = "<group>"; };
+		41DCB9F226F52045000E59D4 /* DealGameSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameSix.swift; sourceTree = "<group>"; };
+		41DD0BB3272366FF00F76A13 /* DealGameSeventeen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameSeventeen.swift; sourceTree = "<group>"; };
+		41E15473272350640007EECA /* DealGameSixteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameSixteen.swift; sourceTree = "<group>"; };
+		41E8095B271ED07800B61B69 /* DealGameTwelve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameTwelve.swift; sourceTree = "<group>"; };
+		41EF3AF5272CB9FE00D1D47A /* DealGameTwentyThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealGameTwentyThree.swift; sourceTree = "<group>"; };
+		77DF826E363A677006A26C5A /* Pods-Deal Pai GowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deal Pai GowTests.release.xcconfig"; path = "Target Support Files/Pods-Deal Pai GowTests/Pods-Deal Pai GowTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E94546CD6EFCBD0CF7D9D58 /* Pods-Deal Pai GowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deal Pai GowTests.debug.xcconfig"; path = "Target Support Files/Pods-Deal Pai GowTests/Pods-Deal Pai GowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3CD67031B446BDD909CD362 /* Pods_Deal_Pai_Gow_Deal_Pai_GowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deal_Pai_Gow_Deal_Pai_GowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC2AE0A8C831C8FD81D8385 /* Pods_Deal_Pai_GowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deal_Pai_GowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0B519BA64A743ACA91205E /* Pods-Deal Pai Gow-Deal Pai GowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deal Pai Gow-Deal Pai GowUITests.release.xcconfig"; path = "Target Support Files/Pods-Deal Pai Gow-Deal Pai GowUITests/Pods-Deal Pai Gow-Deal Pai GowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C950134951BE349524E67E9C /* Pods-Deal Pai Gow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deal Pai Gow.debug.xcconfig"; path = "Target Support Files/Pods-Deal Pai Gow/Pods-Deal Pai Gow.debug.xcconfig"; sourceTree = "<group>"; };
+		E3931FD539BD92D60E0C9AFA /* Pods-Deal Pai Gow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deal Pai Gow.release.xcconfig"; path = "Target Support Files/Pods-Deal Pai Gow/Pods-Deal Pai Gow.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4184149326600C4100AA2847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621A1771451B715F40ACC8EC /* Pods_Deal_Pai_Gow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418414A926600C4500AA2847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9266DE5302B19AF96DD7FB0D /* Pods_Deal_Pai_GowTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418414B426600C4500AA2847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9734C8F2AFCF743925DA82FC /* Pods_Deal_Pai_Gow_Deal_Pai_GowUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4184148D26600C4100AA2847 = {
+			isa = PBXGroup;
+			children = (
+				4184149826600C4100AA2847 /* Deal Pai Gow */,
+				418414AF26600C4500AA2847 /* Deal Pai GowTests */,
+				418414BA26600C4500AA2847 /* Deal Pai GowUITests */,
+				916F91B6A3AB907880A70A3A /* Pods */,
+				464B770BB221F2F136942D2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4184149726600C4100AA2847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4184149626600C4100AA2847 /* Deal Pai Gow.app */,
+				418414AC26600C4500AA2847 /* Deal Pai GowTests.xctest */,
+				418414B726600C4500AA2847 /* Deal Pai GowUITests.xctest */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4184149826600C4100AA2847 /* Deal Pai Gow */ = {
+			isa = PBXGroup;
+			children = (
+				4184149926600C4100AA2847 /* AppDelegate.swift */,
+				4184149B26600C4100AA2847 /* SceneDelegate.swift */,
+				37FFB31E274191BC00759D9C /* Constant.swift */,
+				4184149D26600C4100AA2847 /* ViewController.swift */,
+				418414CC26600FBC00AA2847 /* Rules.swift */,
+				41B30F1E26ADC6C400610E92 /* Fortune.swift */,
+				41B30F2626ADC97900610E92 /* Envy.swift */,
+				418414D126600FEB00AA2847 /* Practice.swift */,
+				418414D62660104A00AA2847 /* DealGame.swift */,
+				411FE50726CFF89300FF37C3 /* DealGameTwo.swift */,
+				4199FF0E26D831A000C508E7 /* DealGameThree.swift */,
+				4113845826EF8E1000842F4B /* DealGameFour.swift */,
+				416BD45326F10420005A380D /* DealGameFive.swift */,
+				41DCB9F226F52045000E59D4 /* DealGameSix.swift */,
+				4112633426FB62DB0002F933 /* DealGameSeven.swift */,
+				41B95A5D26FE670E00EE8804 /* DealGameEight.swift */,
+				4142DF26270DA0A5004BDF81 /* DealGameNine.swift */,
+				41B0AEAD271380ED009E83F0 /* DealGameTen.swift */,
+				419A129A271CBE1A00A79CCB /* DealGameEleven.swift */,
+				41E8095B271ED07800B61B69 /* DealGameTwelve.swift */,
+				411CF9C42720653700DACB01 /* DealGameThirteen.swift */,
+				41AAE70427207B8800698F76 /* DealGameFourteen.swift */,
+				413EB82C272083F9005842AD /* DealGameFifthteen.swift */,
+				41E15473272350640007EECA /* DealGameSixteen.swift */,
+				41DD0BB3272366FF00F76A13 /* DealGameSeventeen.swift */,
+				419359EA2727472400DB2632 /* DealGameEighteen.swift */,
+				41A58B772727564600C9F914 /* DealGameNineteen.swift */,
+				41CAACED27287F2C00FA0A2F /* DealGameTwenty.swift */,
+				4186B37D2728FD4F0000E5AC /* DealGameTwentyone.swift */,
+				4186B37F2728FEE30000E5AC /* DealGameTwentyTwo.swift */,
+				41EF3AF5272CB9FE00D1D47A /* DealGameTwentyThree.swift */,
+				414BD56B2730D0A200B63EA2 /* DealGameTwentyFour.swift */,
+				414BD56D2730DA1900B63EA2 /* DealGameTwentyFive.swift */,
+				41DA72AA273189C100D9C56A /* DealGameTwentySix.swift */,
+				41DA72AC27318C8500D9C56A /* DealGameTwentySeven.swift */,
+				41DA72AE273195EC00D9C56A /* DealGameTwentyEight.swift */,
+				41DA72B02731989600D9C56A /* DealGameTwentyNine.swift */,
+				41DA72B227319A7A00D9C56A /* DealGameThirty.swift */,
+				41DA72B427319E5B00D9C56A /* DealGameThirtyOne.swift */,
+				41DA72B62731A22100D9C56A /* DealGameThirtyTwo.swift */,
+				41DA72B82731A3C600D9C56A /* DealGameThirtyThree.swift */,
+				41DA72BA2731A6BD00D9C56A /* DealGameThirtyFour.swift */,
+				41DA72BC2731AF2300D9C56A /* DealGameThirtyFive.swift */,
+				413A1EFF2731D0C4002D5880 /* DealGameThirtySix.swift */,
+				413A1F012731D40F002D5880 /* DealGameThirtySeven.swift */,
+				413A1F032731D5BC002D5880 /* DealGameThirtyEight.swift */,
+				413A1F052731D7ED002D5880 /* DealGameThirtyNine.swift */,
+				413A1F072731DD3D002D5880 /* LastPage.swift */,
+				4184149F26600C4100AA2847 /* Main.storyboard */,
+				4184149726600C4100AA2847 /* Products */,
+				418414A226600C4500AA2847 /* Assets.xcassets */,
+				418414A426600C4500AA2847 /* LaunchScreen.storyboard */,
+				418414A726600C4500AA2847 /* Info.plist */,
+				413F11FD266159F50036A90D /* GoogleService-Info.plist */,
+				4103DE792701268600BB6C4B /* audio.mp3 */,
+			);
+			path = "Deal Pai Gow";
+			sourceTree = "<group>";
+		};
+		418414AF26600C4500AA2847 /* Deal Pai GowTests */ = {
+			isa = PBXGroup;
+			children = (
+				418414B026600C4500AA2847 /* Deal_Pai_GowTests.swift */,
+				418414B226600C4500AA2847 /* Info.plist */,
+			);
+			path = "Deal Pai GowTests";
+			sourceTree = "<group>";
+		};
+		418414BA26600C4500AA2847 /* Deal Pai GowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				418414BB26600C4500AA2847 /* Deal_Pai_GowUITests.swift */,
+				418414BD26600C4500AA2847 /* Info.plist */,
+			);
+			path = "Deal Pai GowUITests";
+			sourceTree = "<group>";
+		};
+		464B770BB221F2F136942D2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C76D8952DF623CC74A87B0D /* Pods_Deal_Pai_Gow.framework */,
+				A3CD67031B446BDD909CD362 /* Pods_Deal_Pai_Gow_Deal_Pai_GowUITests.framework */,
+				AEC2AE0A8C831C8FD81D8385 /* Pods_Deal_Pai_GowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		916F91B6A3AB907880A70A3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C950134951BE349524E67E9C /* Pods-Deal Pai Gow.debug.xcconfig */,
+				E3931FD539BD92D60E0C9AFA /* Pods-Deal Pai Gow.release.xcconfig */,
+				00663A49A1942E1F32D124A9 /* Pods-Deal Pai Gow-Deal Pai GowUITests.debug.xcconfig */,
+				BB0B519BA64A743ACA91205E /* Pods-Deal Pai Gow-Deal Pai GowUITests.release.xcconfig */,
+				8E94546CD6EFCBD0CF7D9D58 /* Pods-Deal Pai GowTests.debug.xcconfig */,
+				77DF826E363A677006A26C5A /* Pods-Deal Pai GowTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4184149526600C4100AA2847 /* Deal Pai Gow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418414C026600C4500AA2847 /* Build configuration list for PBXNativeTarget "Deal Pai Gow" */;
+			buildPhases = (
+				60567CE1E788735EA3F2076A /* [CP] Check Pods Manifest.lock */,
+				4184149226600C4100AA2847 /* Sources */,
+				4184149326600C4100AA2847 /* Frameworks */,
+				4184149426600C4100AA2847 /* Resources */,
+				F9816C8078051904B0608877 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deal Pai Gow";
+			productName = "Deal Pai Gow";
+			productReference = 4184149626600C4100AA2847 /* Deal Pai Gow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		418414AB26600C4500AA2847 /* Deal Pai GowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418414C326600C4500AA2847 /* Build configuration list for PBXNativeTarget "Deal Pai GowTests" */;
+			buildPhases = (
+				10FB926CCFA7763FE2F3E99F /* [CP] Check Pods Manifest.lock */,
+				418414A826600C4500AA2847 /* Sources */,
+				418414A926600C4500AA2847 /* Frameworks */,
+				418414AA26600C4500AA2847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418414AE26600C4500AA2847 /* PBXTargetDependency */,
+			);
+			name = "Deal Pai GowTests";
+			productName = "Deal Pai GowTests";
+			productReference = 418414AC26600C4500AA2847 /* Deal Pai GowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		418414B626600C4500AA2847 /* Deal Pai GowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418414C626600C4500AA2847 /* Build configuration list for PBXNativeTarget "Deal Pai GowUITests" */;
+			buildPhases = (
+				C4913BA8F1FFAFA1CCDAC20D /* [CP] Check Pods Manifest.lock */,
+				418414B326600C4500AA2847 /* Sources */,
+				418414B426600C4500AA2847 /* Frameworks */,
+				418414B526600C4500AA2847 /* Resources */,
+				581B1EE5EE0F652375DD7ABF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418414B926600C4500AA2847 /* PBXTargetDependency */,
+			);
+			name = "Deal Pai GowUITests";
+			productName = "Deal Pai GowUITests";
+			productReference = 418414B726600C4500AA2847 /* Deal Pai GowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4184148E26600C4100AA2847 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4184149526600C4100AA2847 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					418414AB26600C4500AA2847 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4184149526600C4100AA2847;
+					};
+					418414B626600C4500AA2847 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4184149526600C4100AA2847;
+					};
+				};
+			};
+			buildConfigurationList = 4184149126600C4100AA2847 /* Build configuration list for PBXProject "Deal Pai Gow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4184148D26600C4100AA2847;
+			productRefGroup = 4184149726600C4100AA2847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4184149526600C4100AA2847 /* Deal Pai Gow */,
+				418414AB26600C4500AA2847 /* Deal Pai GowTests */,
+				418414B626600C4500AA2847 /* Deal Pai GowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4184149426600C4100AA2847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4103DE7A2701292A00BB6C4B /* audio.mp3 in Resources */,
+				418414A626600C4500AA2847 /* LaunchScreen.storyboard in Resources */,
+				413F11FE266159F50036A90D /* GoogleService-Info.plist in Resources */,
+				418414A326600C4500AA2847 /* Assets.xcassets in Resources */,
+				418414A126600C4100AA2847 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418414AA26600C4500AA2847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418414B526600C4500AA2847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10FB926CCFA7763FE2F3E99F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deal Pai GowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		581B1EE5EE0F652375DD7ABF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deal Pai Gow-Deal Pai GowUITests/Pods-Deal Pai Gow-Deal Pai GowUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deal Pai Gow-Deal Pai GowUITests/Pods-Deal Pai Gow-Deal Pai GowUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Deal Pai Gow-Deal Pai GowUITests/Pods-Deal Pai Gow-Deal Pai GowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60567CE1E788735EA3F2076A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deal Pai Gow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4913BA8F1FFAFA1CCDAC20D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deal Pai Gow-Deal Pai GowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9816C8078051904B0608877 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deal Pai Gow/Pods-Deal Pai Gow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deal Pai Gow/Pods-Deal Pai Gow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Deal Pai Gow/Pods-Deal Pai Gow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4184149226600C4100AA2847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413A1F042731D5BC002D5880 /* DealGameThirtyEight.swift in Sources */,
+				413A1F082731DD3D002D5880 /* LastPage.swift in Sources */,
+				41DA72AD27318C8500D9C56A /* DealGameTwentySeven.swift in Sources */,
+				41E8095C271ED07800B61B69 /* DealGameTwelve.swift in Sources */,
+				413A1F002731D0C4002D5880 /* DealGameThirtySix.swift in Sources */,
+				4184149E26600C4100AA2847 /* ViewController.swift in Sources */,
+				413A1F062731D7ED002D5880 /* DealGameThirtyNine.swift in Sources */,
+				41E15474272350640007EECA /* DealGameSixteen.swift in Sources */,
+				418414CD26600FBC00AA2847 /* Rules.swift in Sources */,
+				414BD56C2730D0A200B63EA2 /* DealGameTwentyFour.swift in Sources */,
+				4184149A26600C4100AA2847 /* AppDelegate.swift in Sources */,
+				41EF3AF6272CB9FE00D1D47A /* DealGameTwentyThree.swift in Sources */,
+				41B95A5E26FE670E00EE8804 /* DealGameEight.swift in Sources */,
+				41DA72AB273189C100D9C56A /* DealGameTwentySix.swift in Sources */,
+				41B0AEAE271380ED009E83F0 /* DealGameTen.swift in Sources */,
+				4186B37E2728FD4F0000E5AC /* DealGameTwentyone.swift in Sources */,
+				41DD0BB4272366FF00F76A13 /* DealGameSeventeen.swift in Sources */,
+				418414D72660104A00AA2847 /* DealGame.swift in Sources */,
+				41DA72AF273195EC00D9C56A /* DealGameTwentyEight.swift in Sources */,
+				41B30F1F26ADC6C400610E92 /* Fortune.swift in Sources */,
+				41DA72B92731A3C600D9C56A /* DealGameThirtyThree.swift in Sources */,
+				4112633526FB62DB0002F933 /* DealGameSeven.swift in Sources */,
+				413EB82D272083F9005842AD /* DealGameFifthteen.swift in Sources */,
+				4142DF27270DA0A5004BDF81 /* DealGameNine.swift in Sources */,
+				41DCB9F326F52045000E59D4 /* DealGameSix.swift in Sources */,
+				418414D226600FEB00AA2847 /* Practice.swift in Sources */,
+				419359EB2727472500DB2632 /* DealGameEighteen.swift in Sources */,
+				411CF9C52720653700DACB01 /* DealGameThirteen.swift in Sources */,
+				4113845926EF8E1000842F4B /* DealGameFour.swift in Sources */,
+				419A129B271CBE1A00A79CCB /* DealGameEleven.swift in Sources */,
+				416BD45426F10420005A380D /* DealGameFive.swift in Sources */,
+				4199FF0F26D831A000C508E7 /* DealGameThree.swift in Sources */,
+				414BD56E2730DA1900B63EA2 /* DealGameTwentyFive.swift in Sources */,
+				41DA72B12731989600D9C56A /* DealGameTwentyNine.swift in Sources */,
+				4184149C26600C4100AA2847 /* SceneDelegate.swift in Sources */,
+				37FFB31F274191BC00759D9C /* Constant.swift in Sources */,
+				41DA72B527319E5B00D9C56A /* DealGameThirtyOne.swift in Sources */,
+				413A1F022731D40F002D5880 /* DealGameThirtySeven.swift in Sources */,
+				411FE50826CFF89300FF37C3 /* DealGameTwo.swift in Sources */,
+				41CAACEE27287F2C00FA0A2F /* DealGameTwenty.swift in Sources */,
+				41DA72B327319A7A00D9C56A /* DealGameThirty.swift in Sources */,
+				41B30F2726ADC97900610E92 /* Envy.swift in Sources */,
+				41DA72BB2731A6BD00D9C56A /* DealGameThirtyFour.swift in Sources */,
+				41AAE70527207B8800698F76 /* DealGameFourteen.swift in Sources */,
+				4186B3802728FEE30000E5AC /* DealGameTwentyTwo.swift in Sources */,
+				41DA72BD2731AF2300D9C56A /* DealGameThirtyFive.swift in Sources */,
+				41A58B782727564600C9F914 /* DealGameNineteen.swift in Sources */,
+				41DA72B72731A22100D9C56A /* DealGameThirtyTwo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418414A826600C4500AA2847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418414B126600C4500AA2847 /* Deal_Pai_GowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418414B326600C4500AA2847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418414BC26600C4500AA2847 /* Deal_Pai_GowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		418414AE26600C4500AA2847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4184149526600C4100AA2847 /* Deal Pai Gow */;
+			targetProxy = 418414AD26600C4500AA2847 /* PBXContainerItemProxy */;
+		};
+		418414B926600C4500AA2847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4184149526600C4100AA2847 /* Deal Pai Gow */;
+			targetProxy = 418414B826600C4500AA2847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4184149F26600C4100AA2847 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418414A026600C4100AA2847 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		418414A426600C4500AA2847 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418414A526600C4500AA2847 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		418414BE26600C4500AA2847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		418414BF26600C4500AA2847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		418414C126600C4500AA2847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C950134951BE349524E67E9C /* Pods-Deal Pai Gow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YJN9DAF57;
+				INFOPLIST_FILE = "Deal Pai Gow/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goeden.Deal-Pai-Gow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		418414C226600C4500AA2847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3931FD539BD92D60E0C9AFA /* Pods-Deal Pai Gow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YJN9DAF57;
+				INFOPLIST_FILE = "Deal Pai Gow/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goeden.Deal-Pai-Gow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		418414C426600C4500AA2847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E94546CD6EFCBD0CF7D9D58 /* Pods-Deal Pai GowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YJN9DAF57;
+				INFOPLIST_FILE = "Deal Pai GowTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goeden.Deal-Pai-GowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deal Pai Gow.app/Deal Pai Gow";
+			};
+			name = Debug;
+		};
+		418414C526600C4500AA2847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77DF826E363A677006A26C5A /* Pods-Deal Pai GowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YJN9DAF57;
+				INFOPLIST_FILE = "Deal Pai GowTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goeden.Deal-Pai-GowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deal Pai Gow.app/Deal Pai Gow";
+			};
+			name = Release;
+		};
+		418414C726600C4500AA2847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00663A49A1942E1F32D124A9 /* Pods-Deal Pai Gow-Deal Pai GowUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YJN9DAF57;
+				INFOPLIST_FILE = "Deal Pai GowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goeden.Deal-Pai-GowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Deal Pai Gow";
+			};
+			name = Debug;
+		};
+		418414C826600C4500AA2847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB0B519BA64A743ACA91205E /* Pods-Deal Pai Gow-Deal Pai GowUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YJN9DAF57;
+				INFOPLIST_FILE = "Deal Pai GowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goeden.Deal-Pai-GowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Deal Pai Gow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4184149126600C4100AA2847 /* Build configuration list for PBXProject "Deal Pai Gow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418414BE26600C4500AA2847 /* Debug */,
+				418414BF26600C4500AA2847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418414C026600C4500AA2847 /* Build configuration list for PBXNativeTarget "Deal Pai Gow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418414C126600C4500AA2847 /* Debug */,
+				418414C226600C4500AA2847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418414C326600C4500AA2847 /* Build configuration list for PBXNativeTarget "Deal Pai GowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418414C426600C4500AA2847 /* Debug */,
+				418414C526600C4500AA2847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418414C626600C4500AA2847 /* Build configuration list for PBXNativeTarget "Deal Pai GowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418414C726600C4500AA2847 /* Debug */,
+				418414C826600C4500AA2847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4184148E26600C4100AA2847 /* Project object */;
+}
